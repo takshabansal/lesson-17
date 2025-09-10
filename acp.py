@@ -30,7 +30,7 @@ def ordering():
 
 def is_number(s, msg):
     try:
-        float(s)  # Attempt to convert the string to a float
+        float(s)
         return True
     except ValueError:
         print(msg)
